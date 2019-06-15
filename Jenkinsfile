@@ -29,7 +29,7 @@ pipeline {
 
   post {
     failure {
-      mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Jenkins job failure', to: 'practical.jenkins.course@gmail.com'
+      mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Jenkins job failure', to: 'practicejenkins123@gmail.com'
     }
   }
 }
